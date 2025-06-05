@@ -4,7 +4,7 @@
   "description": "json-server para o projeto de PW - Gestão de Condomínios",
   "main": "index.js",
   "scripts": {
-  "start": "json-server --watch db.json --port $PORT --host 0.0.0.0"
+  "start": "json-server --watch db.json --port $PORT --host 0.0.0.0 --cors"
   },
   "dependencies": {
     "json-server": "^0.17.3"
